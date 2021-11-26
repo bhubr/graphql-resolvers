@@ -21,7 +21,7 @@ export default async function populate() {
   ]);
 
   const books = await BookModel.insertMany([
-    { title: 'Raison et Sentiments ', author: authors[0] },
+    { title: 'Raison et Sentiments', author: authors[0] },
     { title: "Hygiène de l'assassin", author: authors[1] },
     { title: 'Les Voyages de Gulliver', author: authors[2] },
   ]);
